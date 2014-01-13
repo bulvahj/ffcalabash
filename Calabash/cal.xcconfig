@@ -1,0 +1,3 @@
+INSTALL_PATH = /Users/mskrabacz/Library/Developer/Xcode/DerivedData//ff-bthwcocmzlvqvgdkicaxyanuucfs/Build/Products/Debug-iphonesimulator/ff.app
+
+OTHER_LDFLAGS = $(inherited) -force_load $(SRCROOT)/calabash.framework/calabash -framework CFNetwork -lstdc++

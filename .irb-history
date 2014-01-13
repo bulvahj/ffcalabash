@@ -1,0 +1,50 @@
+start_test_server_in_background
+start_test_server_in_background
+exit]
+exit
+start_test_server_in_background
+exit
+query('b')
+query('button')
+query('button')
+exit
+reinstall_apps
+reinstall_apps
+start_test_server_in_background
+query('button')
+reinstall_apps
+start_test_server_in_background
+exit
+query('button')
+export APP_BUNDLE_PATH=/Users/mskrabacz/develop/repos/asideas/1414/ios/DerivedData/ff/Build/Products/Debug-iphonesimulator/ff-cal.app
+exit
+query('button')
+exit
+exit
+query('button')
+query('button')
+touch("webView css:'input[id=username]'")
+touch("webView css:'input[id=username]'")
+touch("webView css:'username'")
+touch("webView css:'#{input}'")
+touch("webView css:'#{input}'")
+touch("webView css:'username'")
+touch("webView css:'input[id=username]'")
+touch("webView css:'#username'")
+touch("webView css:'#username'")
+await_keyboard
+ performAction('set_text', 'webView', 'input[id=username]', user[:email])
+ performAction('set_text', 'webView', 'input[id=username]', "bb")
+touch("webView css:'#username'")
+keyboard_enter_text "bb"
+keyboard_enter_text 'bb'
+touch("webView css:'#btnSubmi'")
+touch("webView css:'#btnSubmit'")
+exit
+query("webView css:'input[id=username]'")
+query("webView css:'input[id=username]'")
+query("webView css:'input[id=username]'")
+query("webView css:'input[id=username]'")
+query("webView css:'input[id=username]'")
+touch("webView css:'#username'")
+touch("webView css:'#username'")
